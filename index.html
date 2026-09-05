@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#7c3aed">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CoC墙助手">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237c3aed'/%3E%3Ctext x='32' y='42' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E5%A2%99%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <title>CoC 刷墙助手 · 合规工具</title>
+</head>
+<body>
+  <header class="app-header">
+    <h1>CoC 刷墙助手</h1>
+    <p class="subtitle">资源规划 · 策略速查 · 训练提醒 · 进度追踪（合规工具，不调用任何游戏接口）</p>
+    <button id="theme-toggle" class="icon-btn" aria-label="切换主题">🌙</button>
+  </header>
+
+  <nav id="tabs" class="tabs" role="tablist">
+    <button class="tab active" data-tab="planner" role="tab">规划</button>
+    <button class="tab" data-tab="guide" role="tab">策略</button>
+    <button class="tab" data-tab="reminder" role="tab">提醒</button>
+    <button class="tab" data-tab="tracker" role="tab">追踪</button>
+  </nav>
+
+  <main id="view" class="view"></main>
+
+  <footer class="app-footer">
+    <small>本工具不连接游戏服务器，不模拟点击，不读取游戏数据。所有数据由用户手动录入，仅做本地计算与提醒。</small>
+  </footer>
+
+  <script type="module" src="./app/main.js"></script>
+</body>
+</html>

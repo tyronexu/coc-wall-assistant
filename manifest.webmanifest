@@ -1,0 +1,20 @@
+{
+  "name": "CoC 刷墙助手",
+  "short_name": "CoC墙助手",
+  "description": "资源规划、策略速查、训练提醒、进度追踪。合规工具，不调用任何游戏接口。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f0f14",
+  "theme_color": "#7c3aed",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%237c3aed'/%3E%3Ctext x='256' y='336' font-size='280' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E5%A2%99%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
